@@ -3,6 +3,8 @@
 # Edit at https://www.gitignore.io/?templates=c,linux,clion+all
 
 ### C ###
+*.txt
+
 # Prerequisites
 *.d
 
