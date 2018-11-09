@@ -1,10 +1,8 @@
 
-# Created by https://www.gitignore.io/api/c,linux,clion+all
-# Edit at https://www.gitignore.io/?templates=c,linux,clion+all
+# Created by https://www.gitignore.io/api/c,cmake,linux,clion+all
+# Edit at https://www.gitignore.io/?templates=c,cmake,linux,clion+all
 
 ### C ###
-*.txt
-
 # Prerequisites
 *.d
 
@@ -139,6 +137,17 @@ modules.xml
 .idea/misc.xml
 *.ipr
 
+### CMake ###
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
 ### Linux ###
 *~
 
@@ -154,4 +163,4 @@ modules.xml
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
-# End of https://www.gitignore.io/api/c,linux,clion+all
+# End of https://www.gitignore.io/api/c,cmake,linux,clion+all
